@@ -7,27 +7,26 @@
              tools:context=".MainActivity">
 
     <ImageView
-        android:id="@+id/logo_coin_iv"
+        android:id="@+id/coin_iv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:src="@mipmap/reg_coin"/>
+        android:src="@mipmap/coin"/>
 
     <ImageView
-        android:id="@+id/logo_version"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginBottom="70dp"
         android:layout_marginLeft="70dp"
-        android:src="@mipmap/reg_img_version"/>
+        android:src="@mipmap/version"/>
 
     <ImageView
-        android:id="@+id/logo_iv"
+        android:id="@+id/wallet_iv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:src="@mipmap/reg_img_logo"/>
+        android:src="@mipmap/wallet"/>
 
     <Button
         android:id="@+id/start_btn"
